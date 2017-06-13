@@ -232,7 +232,8 @@ section.features .text-muted{
 
   
   font-size: 20px;
-  letter-spacing: 0.06em;
+  font-weight: 500;
+  letter-spacing: 0.04em;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -483,13 +484,84 @@ header .header-content .header-content-inner h1{
 
 .bg-concept{
 
-  background-image: url("../img2/Concept.jpg");
+  background-image: url("../img2/Concept02.png");
 }
 
 
 
 
 a:hover, a:focus {
-    color: #2983BA;
+    color: #e62020;    
+    text-decoration: none;
+    //border-style: none none solid none;
+
+    
 }
 
+
+
+@media (min-width: 768px){
+
+
+  .navbar-nav>li>a {
+      padding-top: 15px;
+      padding-bottom: 7px;
+
+  }
+  .navbar-nav>li>a:focus {
+      border-style: none none solid none;
+      
+  }
+
+
+ 
+
+
+}
+
+
+@media (max-width: 768px){
+
+ #addFriendsImg{
+
+     margin-left: auto;
+     margin-right: auto;
+  }
+}
+
+
+
+.footerLink:hover{
+
+  color:white;
+}
+
+
+
+.addPollerBlock{
+  
+
+  background-color:rgba(0,0,0,0.6); 
+  width: 100%;
+  height: 100%;
+  
+  
+  position: absolute;
+  z-index: 1050;
+  left:0px;
+  top:0px;
+  
+
+  visibility: hidden;
+
+}
+
+
+
+#TryNowContainer{
+
+  background-color: white;
+  //height: 600px;
+   border-radius: 10px;
+  // background-image: url('../img2/Poller_QRCode02.png');
+}
