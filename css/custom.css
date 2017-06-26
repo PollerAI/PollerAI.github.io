@@ -34,7 +34,31 @@ p {
   font-weight: 500;
 }
 
+@media (min-width: 768px) {
+  .ribon-alpha {
+    position: fixed;
+    z-index: 1200;
+    width: 79px;
+    height: 79px;
+    object-fit: contain;
+  }
+  .tag-alpha {
+    display: none;
+  }
+}
 
+@media (max-width: 767px) {
+  .ribon-alpha {
+    display: none;
+  }
+  .tag-alpha {
+    position: fixed;
+    z-index: 1200;
+    width: 59px;
+    height: 24px;
+    object-fit: contain;
+  }
+}
 
 .subsubtitle{
   font-size:18px;
